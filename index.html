@@ -1,0 +1,28 @@
+<html>
+<head>
+	<title>Todo jQuery</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap/css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/main-style.css">
+</head>
+<body>
+<div class="wrapper">
+	<input type="text" class="task-input form-actions" name="task-input" placeholder="What needs to be done?" required />
+	<button class="task-create btn-large btn-primary">
+		<span class="glyphicon glyphicon-plus"></span>
+	</button>	
+	<div class="toDoList dropdown-toggle"></div>
+	<div class="toDoOptions">
+		<ul>
+			<li id="showAll" class='active'>Show all</li>
+			<li id="showAct">Show active</li>
+			<li id="showComp">Show completed </li>
+			<li id="toggleCheckAll">Check all</li>
+		</ul>
+	</div>
+</div>
+<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

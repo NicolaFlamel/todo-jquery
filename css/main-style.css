@@ -1,0 +1,83 @@
+    @import url(http://fonts.googleapis.com/css?family=Old+Standard+TT);
+
+    *{
+      margin:0;
+      padding:0;
+    }
+
+    body{
+      background-image: url("images/fone.jpg");
+      background-size: cover;
+      width:700px;
+      margin:auto;
+      text-align: center;
+    }
+
+    .wrapper{
+      padding:20px;
+      background-color: rgba(255,255,255,0.2);
+      margin-top:100px;
+      border-radius:5px;
+      box-shadow:0 0 20px -2px black;
+      font-family: 'Old Standard TT', serif;
+    }
+
+    p{
+      height:50px;
+      padding: 5px; 
+      border-radius:3px;
+      font-size: 30px;
+      border:none;
+      line-height: 1.5;
+      box-shadow:0 10px 10px -12px black,0 -10px 10px -12px black;
+      font-family: 'Old Standard TT', serif;
+    }
+
+    .complete{
+      text-decoration: line-through;
+    }
+
+    button{
+      z-index:1;
+    }
+
+    .toDoOptions{
+      height:50px;
+      padding: 5px;
+      width:650px; 
+      margin:auto;
+      border-radius:3px;
+      text-align: center;
+      border:none;
+      box-shadow:0 10px 10px -12px black,0 -10px 10px -12px black;
+    }
+
+    .toDoOptions ul{
+      margin-left:85px;
+    } 
+
+    .toDoOptions  li{
+      list-style: none;
+      float:left;
+      font-size: 20px;
+      padding:10px;
+      cursor: pointer;
+      text-align: center;
+    }
+
+    .toDoOptions li:last-child{
+      border-right:none;
+    }
+
+    .active{
+      color: red;
+    }
+
+    .task-input{
+      width:600px;
+      font-size: 20px;
+    }
+
+    .changeToDo{
+      height:40px;
+    }
